@@ -10,8 +10,12 @@ The strategy is to just covert coffee-script code from `./cs` folder into `./src
 
 ### Dev
 
-`npm run watch` - watches `./cs` folder, converts `.coffee` files to `/src`
-`npm start` - Create-React-App's dev server
+`yarn watch` - watches `./cs` folder, converts `.coffee` files to `/src`
+`yarn start` - in another terminal... Create-React-App's dev server
+
+alternatively
+
+`yarn dev` - runs both watch & start in same terminal
 
 ----
 
