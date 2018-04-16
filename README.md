@@ -1,3 +1,20 @@
+## Coffee-script
+
+Coffee-script, no semi-colons yay!
+
+To use, put your .coffee files into `./cs` folder.
+
+The strategy is to just covert coffee-script code from `./cs` folder into `./src`.
+
+`/src/*.js` is in `.gitignore`
+
+### Dev
+
+`npm run watch` - watches `./cs` folder, converts `.coffee` files to `/src`
+`npm start` - Create-React-App's dev server
+
+----
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
