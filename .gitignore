@@ -21,4 +21,4 @@ yarn-debug.log*
 yarn-error.log*
 
 # coffee-script
-/src/*.js
+/src/**/*.js
