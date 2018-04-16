@@ -13,8 +13,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "compile": "coffee -c -o src/ -b cs/*.coffee",
-    "watch": "coffee -c -o src/ -b -w cs/*.coffee",
+    "compile": "coffee -c -o src/ -b cs/",
+    "watch": "coffee -c -o src/ -b -w cs/",
     "dev": "yarn start & yarn watch"
   }
 }
